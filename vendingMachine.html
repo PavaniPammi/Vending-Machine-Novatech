@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <div class="vending-machine-page">
+        <h1 class="vending-machine-heading">Tea/Coffee Vending Machine</h1>
+        <div class="dispense-card">
+            <h1 class="vending-machine-sub-heading">Dispense</h1>
+
+            <div>
+                <label for="dispenseCardSelect" class="vending-machine-label">Select Item: </label>
+                <select class="vending-machine-input" id="dispenseCardSelect">
+                    <option>Strong Coffee</option>
+                    <option>Light Coffee</option>
+                    <option>Strong Tea</option>
+                    <option>Light Tea</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="vending-machine-label" for="dispenseCardQuantity">Quantity: </label>
+                <input class="vending-machine-input" type="text" placeholder="0" id="dispenseCardQuantity" />
+            </div>
+
+            <div class="dispense-card-checkbox">
+                <input type="checkbox" id="dispenseCardCheckbox" class="dispense-card-checkbox-input" />
+                <label for="dispenseCardCheckbox">With Suger</label>
+            </div>
+            <div class="vending-machine-button-container">
+                <button class="vending-machine-button" id="dispenseButton">Dispense</button>
+                <button class="vending-machine-button" id="dispenseCardClearButton">Clear</button>
+            </div>
+        </div>
+        <div class="stock-refill-card">
+            <h1 class="vending-machine-sub-heading">Stock Refill</h1>
+            <div>
+                <label for="stockRefillCardTeaLeavesQuantity" class="vending-machine-label">Tea Leaves Quantity: </label>
+                <input type="text" id="stockRefillCardTeaLeavesQuantity" class="vending-machine-input" />
+            </div>
+            <div>
+                <label for="stockRefillCardCoffeePowderQuantity" class="vending-machine-label">Coffee Powder Quantity: </label>
+                <input type="text" id="stockRefillCardCoffeePowderQuantity" class="vending-machine-input" />
+            </div>
+            <div>
+                <label for="stockRefillCardSugerQuantity" class="vending-machine-label">Suger Quantity: </label>
+                <input type="text" id="stockRefillCardSugerQuantity" class="vending-machine-input" />
+            </div>
+            <div>
+                <label for="stockRefillCardMilkQuantity" class="vending-machine-label">Milk Quantity: </label>
+                <input type="text" id="stockRefillCardMilkQuantity" class="vending-machine-input" />
+            </div>
+            <div>
+                <label for="stockRefillCardWaterQuantity" class="vending-machine-label">Water Quantity: </label>
+                <input type="text" id="stockRefillCardWaterQuantity" class="vending-machine-input" />
+            </div>
+
+            <div class="vending-machine-button-container">
+                <button class="vending-machine-button" id="refillButton">Refill</button>
+                <button class="vending-machine-button" id="refillClearButton">Clear</button>
+            </div>
+        </div>
+        <div class="stock-report-card">
+            <h1 class="vending-machine-sub-heading">Stock Report</h1>
+            <div class="stock-consumed-card">
+                <p class="stock-report-card-sub-heading">Stock Consumed</p>
+                <p class="stock-report-description">Tea Leaves: <span id="consumedTeaLeaves">0</span></p>
+                <p class="stock-report-description">Coffee Powder: <span id="consumedCoffeePowder">0</span></p>
+                <p class="stock-report-description">Suger: <span id="consumedSuger">0</span></p>
+                <p class="stock-report-description">Milk: <span id="consumedMilk">0</span></p>
+                <p class="stock-report-description">Water: <span id="consumedWater">0</span></p>
+            </div>
+            <div class="stock-remaining-card">
+                <p class="stock-report-card-sub-heading">Stock Remaining</p>
+                <p class="stock-report-description">Tea Leaves: <span id="remainingTeaLeaves">500</span></p>
+                <p class="stock-report-description">Coffee Powder: <span id="remainingCoffeePowder">500</span></p>
+                <p class="stock-report-description">Suger: <span id="remainingSuger">600</span></p>
+                <p class="stock-report-description">Milk: <span id="remainingMilk">8000</span></p>
+                <p class="stock-report-description">Water: <span id="remainingWater">15000</span></p>
+            </div>
+            <div class="leakage-information-card">
+                <p class="stock-report-card-sub-heading">Leackage Information</p>
+                <p class="stock-report-description">Milk: <span id="leakageInformationOfMilk">0</span></p>
+                <p class="stock-report-description">Water: <span id="leakageInformationOfWater">0</span></p>
+            </div>
+            <div class="beverage-details">
+                <p class="stock-report-card-sub-heading">Beverage Details</p>
+                <p class="stock-report-description">No.of Strong Coffee Cups Dispensed: <span id="beverageDetailsOfStrongCoffee">0</span></p>
+                <p class="stock-report-description">No.of Light Coffee Cups Dispensed: <span id="beverageDetailsOfLightCoffee">0</span></p>
+                <p class="stock-report-description">No.of Strong Tea Cups Dispensed: <span id="beverageDetailsOfStrongTea">0</span></p>
+                <p class="stock-report-description">No.of Light Tea Cups Dispensed: <span id="beverageDetailsOfLightTea">0</span></p>
+                <p class="stock-report-description">Selling Price: <span id="beverageDetailsOfSellingPrice">0</span></p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
