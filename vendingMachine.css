@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+* {
+    font-family: Monospace;
+}
+
+.vending-machine-page {
+    padding: 20px;
+    border: 2px solid gray;
+    margin: 20px;
+}
+
+.vending-machine-heading {
+    text-align: center;
+}
+
+.vending-machine-sub-heading {
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.vending-machine-input {
+    padding: 5px;
+    border: 2px solid gray;
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-width: 200px;
+
+}
+
+.vending-machine-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+.dispense-card-checkbox {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.dispense-card-checkbox-input {
+    height: 20px;
+    width: 20px;
+}
+
+.vending-machine-button-container {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.vending-machine-button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.stock-report-card-sub-heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.stock-report-description {
+    font-size: 16px;
+}
